@@ -54,4 +54,11 @@
   </div>
 </div>
 
+<h1>Articles Test using Cloudinary</h1>
+<%= cl_image_tag("lld5qdxfkpzdnz2aovzh",
+      width: 400, height: 300, crop: :fill) %>
+
+<!-- for face detection -->
+<%= cl_image_tag("xq3qczc7zzicfjfxhljp",
+      width: 150, height: 150, crop: :thumb, gravity: :face) %>
 </div>
